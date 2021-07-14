@@ -85,26 +85,24 @@ public class C46783_CreateACondoRoomRentalRegularListing extends Base_Test {
 			 driver.findElement(By.xpath("//*[@id='et_second_text_field']")).sendKeys("10");
 			 lc.Click_MasterRoom();
 			 lc.Click_RoomSize();
-			 //driver.findElement(By.xpath("//*[@id='etCreateListingTextRow' and (./preceding-sibling::* | ./following-sibling::*)[@text='Size']]")).sendKeys("25");
 			 action.press(360,927).release().perform(); // 2
 			 action.press(360,1069).release().perform(); // 5
 			 BACK();
 			 lc.Click_Price();
-			 //driver.findElement(By.xpath("//*[@id='etCreateListingTextRow' and (./preceding-sibling::* | ./following-sibling::*)[@text='Price']]")).sendKeys("1000");
 			 action.press(360,927).release().perform(); // 2
 			 action.press(360,1069).release().perform(); // 5
 			 BACK();
-			 System.out.println("When I click on Create listing");
+			 System.out.println("#When I click on Create listing");
 			 lc.Click_CreateFreeListing();
 			 lc.Click_CreateFreeListingModal();
 			 lc.Click_SkipAndCreateListing();
 			 try {
 					assertEquals(lc.Verify_ListingCreation(), true, "Listing created!");
-					System.out.println("Then my listing should be created for Condo/Room Rental");
+					System.out.println("#Then my listing should be created for Condo/Room Rental");
 					
 				} catch (Exception e){
 							
-					System.out.println("Listing creation unsuccessful");
+					System.out.println("#Listing creation unsuccessful");
 					
 				}
 			 lc.Click_ButtonToDashboard();
@@ -143,26 +141,24 @@ public class C46783_CreateACondoRoomRentalRegularListing extends Base_Test {
 				driver.findElement(By.xpath("//*[@id='et_second_text_field']")).sendKeys("10");
 				lc.Click_MasterRoom();
 				lc.Click_RoomSize();
-				//driver.findElement(By.xpath("//*[@id='etCreateListingTextRow' and (./preceding-sibling::* | ./following-sibling::*)[@text='Size']]")).sendKeys("25");
 				action.press(360,927).release().perform(); // 2
 				action.press(360,1069).release().perform(); // 5
 				BACK();
 				lc.Click_Price();
-				//driver.findElement(By.xpath("//*[@id='etCreateListingTextRow' and (./preceding-sibling::* | ./following-sibling::*)[@text='Price']]")).sendKeys("1000");
 				action.press(360,927).release().perform(); // 2
 				action.press(360,1069).release().perform(); // 5
 				BACK();
-				System.out.println("When I click on Create listing");
+				System.out.println("#When I click on Create listing");
 				lc.Click_CreateFreeListing();
 				lc.Click_CreateFreeListingModal();
 				lc.Click_SkipAndCreateListing();
 				try {
 					assertEquals(lc.Verify_ListingCreation(), true, "Listing created!");
-					System.out.println("Then my listing should be created for Condo/Room Rental");
+					System.out.println("#Then my listing should be created for Condo/Room Rental");
 					
 				} catch (Exception e){
 							
-					System.out.println("Listing creation unsuccessful");
+					System.out.println("#Listing creation unsuccessful");
 					
 				}
 				lc.Click_ButtonToDashboard();

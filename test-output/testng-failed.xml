@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test Suite(failed)">
     <classes>
+      <class name="android.ninetynine.createlisting.C1409_CreateALandedRentRegularListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="C1409_CreateALandedRentRegular_Listing"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- android.ninetynine.createlisting.C1409_CreateALandedRentRegularListing -->
+      <class name="android.ninetynine.createlisting.C1407_CreateACondoRentRegularListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- android.ninetynine.createlisting.C1407_CreateACondoRentRegularListing -->
+      <class name="android.ninetynine.createlisting.C1412_CreateACondoSaleRegularListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- android.ninetynine.createlisting.C1412_CreateACondoSaleRegularListing -->
+      <class name="android.ninetynine.createlisting.C1413_CreateALandedSaleRegularListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- android.ninetynine.createlisting.C1413_CreateALandedSaleRegularListing -->
       <class name="android.ninetynine.createlisting.C46783_CreateACondoRoomRentalRegularListing">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="C46783_CreateACondoRoomRentalRegular_Listing"/>
         </methods>
       </class> <!-- android.ninetynine.createlisting.C46783_CreateACondoRoomRentalRegularListing -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

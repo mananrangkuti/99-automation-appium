@@ -6,6 +6,7 @@
       <class name="android.ninetynine.createlisting.C1409_CreateALandedRentRegularListing">
         <methods>
           <include name="tearDown"/>
+          <include name="C1409_CreateALandedRentRegular_Listing"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- android.ninetynine.createlisting.C1409_CreateALandedRentRegularListing -->
@@ -31,7 +32,6 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="C46783_CreateACondoRoomRentalRegular_Listing"/>
         </methods>
       </class> <!-- android.ninetynine.createlisting.C46783_CreateACondoRoomRentalRegularListing -->
     </classes>
