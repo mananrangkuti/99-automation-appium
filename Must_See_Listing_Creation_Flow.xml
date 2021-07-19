@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Must See Listing Creation">
+  <test thread-count="5" name="Must See Listing Creation">
+    <classes>
+ 		<class name="android.ninetynine.createlisting.C1406_CreateACondoRentMustSeeListing"/>
+ 		<class name="android.ninetynine.createlisting.C1408_CreateALandedRentMustSeeListing"/>
+ 		<class name="android.ninetynine.createlisting.C1410_CreateACondoSaleMustSeeListing"/>
+ 		<class name="android.ninetynine.createlisting.C1411_CreateALandedSaleMustSeeListing"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
